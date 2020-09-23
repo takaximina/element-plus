@@ -47,6 +47,7 @@ import ElColorPicker from '@element-plus/color-picker'
 import ElSelect from '@element-plus/select'
 import ElTimeSelect from '@element-plus/time-select'
 import ElPagination from '@element-plus/pagination'
+import ElPopover from '@element-plus/popover'
 
 export {
   ElAlert,
@@ -96,6 +97,7 @@ export {
   ElSelect,
   ElTimeSelect,
   ElPagination,
+  ElPopover,
 }
 
 const install = (app: App): void => {
@@ -147,6 +149,7 @@ const install = (app: App): void => {
   ElSelect(app)
   ElTimeSelect(app)
   ElPagination(app)
+  ElPopover(app)
 }
 
 const elementUI = {
