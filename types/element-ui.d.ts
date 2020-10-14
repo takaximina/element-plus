@@ -95,7 +95,7 @@ export const version: string
  * Please do not invoke this method directly.
  * Call `Vue.use(ElementUI)` to install.
  */
-export function install (vue: typeof Vue, options: InstallationOptions): void
+export function install (vue: Vue.App, options: InstallationOptions): void
 
 /** ElementUI component common definition */
 export type Component = ElementUIComponent
